@@ -22,15 +22,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
-  padding-top: 48px ;
-  padding-bottom: 48px;   
+  padding-top: 48px;
+  padding-bottom: 48px;
   padding-left: 32px;
   padding-right: 32px;
 }
 
 .navigation {
   padding-left: 32px
-
 }
 
 .logo {
@@ -38,12 +37,10 @@ body {
 }
 
 .Überschrift {
-  
   font-size: 48px;
   margin-top: 96px;
   margin-bottom: 0px;
   margin-right: 32px;
-  
 }
 
 .Überschrift2 {
@@ -56,10 +53,65 @@ body {
 
 .line {
   border: solid white 2px;
-  margin-left: auto; margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 240px;
 }
 
+.menu {
+  height: 48px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bigbox2 {
+  font-size: 24px;
+  margin-bottom:0px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
 
 
-  
+.Beschreibung {
+  margin-top: 0px;
+  font-size:36px ;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom:48px;
+}
+
+.Avatar {
+  display: flex;
+  height:400px;
+  width: 400px;
+ border-radius: 50%;
+ border: 8px solid white;
+ box-shadow:5px 10px 10px 0px rgba(0, 0, 0, 0.33);
+ object-fit: cover;
+ min-width: 400px;
+}
+
+.Flexbox2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap:48px;
+  justify-content: center;
+}
+
+.Beschreibtext {
+  font-size: 24px;
+  font-weight: 400;
+  flex-basis: 400px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.Werbung {
+  font-weight: 700;
+}
+
