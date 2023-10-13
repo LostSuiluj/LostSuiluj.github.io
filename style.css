@@ -11,12 +11,15 @@ body {
   background-color: #C4CCB8;
 }
 
+
+
 .bigbox {
   background-image: url(assets/01_header/background_header.png);
   background-size: cover;
   background-position: center;
   color: white;
 }
+
 
 .container {
   margin-left: auto;
@@ -58,6 +61,7 @@ body {
   max-width: 240px;
 }
 
+
 .menu {
   height: 48px;
 }
@@ -96,6 +100,7 @@ body {
  min-width: 400px;
 }
 
+
 .Flexbox2 {
   display: flex;
   flex-wrap: wrap;
@@ -109,9 +114,55 @@ body {
   flex-basis: 400px;
   flex-grow: 1;
   flex-shrink: 0;
+  color: black;
 }
+
+
 
 .Werbung {
   font-weight: 700;
 }
 
+
+.Wissen {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.content-wrapper {
+  /* Was ist das mobile Verhalten? */
+  width: 100%;
+}
+
+
+@media (min-width: 912px) {
+  .content-wrapper { width: 50%;
+    /* Was ist das Verhalten auf Desktop? */
+
+  }
+}
+
+.DIVA-E {
+  font-size: 36px;
+}
+
+.test {
+  margin-top:48px;
+}
+
+
+.image {
+  background-image: url(assets/03_company/background_company.png);
+  background-size:cover;
+  background-position: center;
+}
+
+  
+
+
+.maintext {
+  font-size: 24px;
+  font-weight: 400;
+}
