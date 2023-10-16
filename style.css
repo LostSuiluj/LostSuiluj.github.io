@@ -12,7 +12,6 @@ body {
 }
 
 
-
 .bigbox {
   background-image: url(assets/01_header/background_header.png);
   background-size: cover;
@@ -32,7 +31,7 @@ body {
 }
 
 .navigation {
-  padding-left: 32px
+  padding-left: 32px;
 }
 
 .logo {
@@ -71,12 +70,11 @@ body {
   justify-content: space-between;
 }
 
-.bigbox2 {
-  font-size: 24px;
-  margin-bottom:0px;
+.Flexbox2 {
   display: flex;
+  flex-wrap: wrap;
+  gap:48px;
   justify-content: center;
-  font-weight: 700;
 }
 
 
@@ -93,20 +91,13 @@ body {
   display: flex;
   height:400px;
   width: 400px;
- border-radius: 50%;
- border: 8px solid white;
- box-shadow:5px 10px 10px 0px rgba(0, 0, 0, 0.33);
- object-fit: cover;
- min-width: 400px;
+  border-radius: 50%;
+  border: 8px solid white;
+  box-shadow:5px 10px 10px 0px rgba(0, 0, 0, 0.33);
+  object-fit: cover;
+  min-width: 400px;
 }
 
-
-.Flexbox2 {
-  display: flex;
-  flex-wrap: wrap;
-  gap:48px;
-  justify-content: center;
-}
 
 .Beschreibtext {
   font-size: 24px;
@@ -116,7 +107,6 @@ body {
   flex-shrink: 0;
   color: black;
 }
-
 
 
 .Werbung {
@@ -160,9 +150,101 @@ body {
 }
 
   
-
-
 .maintext {
   font-size: 24px;
   font-weight: 400;
 }
+
+.Overline {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.6px;
+}
+
+
+
+.Headline {
+  margin-top: 0px;
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.Flexbox3 {
+  display: flex;
+  width: Auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 32px;
+  margin-top: 48px;
+  gap: 16px;
+}
+
+@media ( max-width:787px) {
+  .Flexbox3 {
+    justify-content: center;
+  }
+}
+
+
+.Karte {
+  width: 360px;
+  height: 525px;
+  background-color: white;
+  min-width: 360px;
+  border: 2px solid var(--colors-white, #FFF);
+  box-shadow:5px 10px 10px 0px rgba(0, 0, 0, 0.33);
+  border-radius: 32px;
+}
+
+
+.Image1 {
+  height:258px;
+  width:358px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border: 2px solid var(--colors-white, #FFF);
+}
+
+
+.Minicontainer {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 16px;
+  color: #24912D;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+
+.Rollen  {
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-size:24px ;
+  font-weight: 700;
+  width: 328px;
+}
+
+.Infotext {
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size:16px;
+  font-weight: 400;
+  height: 156px;
+}
+
+
+
+
+ 
+
+
+
+
