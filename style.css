@@ -138,10 +138,6 @@ body {
   font-size: 36px;
 }
 
-.test {
-  margin-top:48px;
-}
-
 
 .image {
   background-image: url(assets/03_company/background_company.png);
@@ -198,15 +194,18 @@ body {
   border: 2px solid var(--colors-white, #FFF);
   box-shadow:5px 10px 10px 0px rgba(0, 0, 0, 0.33);
   border-radius: 32px;
+  overflow: hidden;
+  transition: all 0.75s;
+}
+
+.Karte:hover {
+  transform: scale(1.05);
 }
 
 
 .Image1 {
-  height:258px;
+  height:260px;
   width:358px;
-  border-top-left-radius: 32px;
-  border-top-right-radius: 32px;
-  border: 2px solid var(--colors-white, #FFF);
 }
 
 
@@ -232,6 +231,7 @@ body {
   width: 328px;
 }
 
+
 .Infotext {
   margin-left: 16px;
   margin-right: 16px;
@@ -240,11 +240,118 @@ body {
   height: 156px;
 }
 
+.Last {
+  text-align: center;
+  padding-top:48px;
+  color: White;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+.Lastheading {
+  background-color:#172F2C ;
+}
 
 
+.Motto {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 48px;
+  font-size: 20px;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: italic;
+}
 
- 
+
+.Overline-Galerie {
+display: flex;
+justify-content: end;
+font-weight: 700;
+font-size:24px;
+}
+
+.Eindrücke {
+  text-align: right;
+  margin-top: 0px;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+.Galerie {
+  margin-top: 48px;
+  object-fit: cover;
+  border: 16px solid white;
+  transform: rotate(-2.86deg) ;
+  transform-origin: bottom right;
+  width: 50%;
+  aspect-ratio: 4/3;
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.33);
+  margin-bottom: 48px;
+}
 
 
+.Flexbox4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
+.Richtungen {
+  height: 38px;
+}
+
+.footer {
+  display: flex;
+  color: #FFF;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 32px;
+  padding-right: 32px;
+  justify-content: space-between;
+}
+
+@media (max-width:1175px) {
+  .footer {
+    display: block;
+  }
+}
+
+.minicontainer2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.backround {
+  background-color: #172F2C ;
+  display: flex;
+  justify-content: center;
+}
+
+.Button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 435px;
+}
+
+@media (max-width:1175px) {
+  .Button {
+    justify-content: center;
+  }
+}
+
+a:hover {
+  color: #ef840A;
+}
+
+a {
+  color: inherit;
+}
