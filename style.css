@@ -73,27 +73,27 @@ body {
 .Flexbox2 {
   display: flex;
   flex-wrap: wrap;
-  gap:48px;
+  gap: 48px;
   justify-content: center;
 }
 
 
 .Beschreibung {
   margin-top: 0px;
-  font-size:36px ;
+  font-size: 36px;
   display: flex;
   justify-content: center;
   font-weight: 700;
-  margin-bottom:48px;
+  margin-bottom: 48px;
 }
 
 .Avatar {
   display: flex;
-  height:400px;
+  height: 400px;
   width: 400px;
   border-radius: 50%;
   border: 8px solid white;
-  box-shadow:5px 10px 10px 0px rgba(0, 0, 0, 0.33);
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.33);
   object-fit: cover;
   min-width: 400px;
 }
@@ -128,7 +128,8 @@ body {
 
 
 @media (min-width: 912px) {
-  .content-wrapper { width: 50%;
+  .content-wrapper {
+    width: 50%;
     /* Was ist das Verhalten auf Desktop? */
 
   }
@@ -141,11 +142,11 @@ body {
 
 .image {
   background-image: url(assets/03_company/background_company.png);
-  background-size:cover;
+  background-size: cover;
   background-position: center;
 }
 
-  
+
 .maintext {
   font-size: 24px;
   font-weight: 400;
@@ -179,7 +180,7 @@ body {
   gap: 16px;
 }
 
-@media ( max-width:787px) {
+@media (max-width:787px) {
   .Flexbox3 {
     justify-content: center;
   }
@@ -192,7 +193,7 @@ body {
   background-color: white;
   min-width: 360px;
   border: 2px solid var(--colors-white, #FFF);
-  box-shadow:5px 10px 10px 0px rgba(0, 0, 0, 0.33);
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.33);
   border-radius: 32px;
   overflow: hidden;
   transition: all 0.75s;
@@ -204,8 +205,8 @@ body {
 
 
 .Image1 {
-  height:260px;
-  width:358px;
+  height: 260px;
+  width: 358px;
 }
 
 
@@ -221,12 +222,12 @@ body {
 }
 
 
-.Rollen  {
+.Rollen {
   margin-left: 16px;
   display: flex;
   justify-content: center;
   margin-top: 0px;
-  font-size:24px ;
+  font-size: 24px;
   font-weight: 700;
   width: 328px;
 }
@@ -235,20 +236,21 @@ body {
 .Infotext {
   margin-left: 16px;
   margin-right: 16px;
-  font-size:16px;
+  font-size: 16px;
   font-weight: 400;
   height: 156px;
 }
 
 .Last {
   text-align: center;
-  padding-top:48px;
+  padding-top: 48px;
   color: White;
   font-size: 32px;
   margin-bottom: 0px;
 }
+
 .Lastheading {
-  background-color:#172F2C ;
+  background-color: #172F2C;
 }
 
 
@@ -265,10 +267,10 @@ body {
 
 
 .Overline-Galerie {
-display: flex;
-justify-content: end;
-font-weight: 700;
-font-size:24px;
+  display: flex;
+  justify-content: end;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .Eindrücke {
@@ -282,7 +284,7 @@ font-size:24px;
   margin-top: 48px;
   object-fit: cover;
   border: 16px solid white;
-  transform: rotate(-2.86deg) ;
+  transform: rotate(-2.86deg);
   transform-origin: bottom right;
   width: 50%;
   aspect-ratio: 4/3;
@@ -300,7 +302,9 @@ font-size:24px;
 
 .Richtungen {
   height: 38px;
+  cursor: pointer;
 }
+
 
 .footer {
   display: flex;
@@ -330,7 +334,7 @@ font-size:24px;
 
 
 .backround {
-  background-color: #172F2C ;
+  background-color: #172F2C;
   display: flex;
   justify-content: center;
 }
@@ -348,10 +352,18 @@ font-size:24px;
   }
 }
 
-a:hover {
-  color: #ef840A;
+svg {
+  fill: #ffffff;
 }
 
 a {
   color: inherit;
+}
+
+a:hover {
+  color: #ef840A;
+}
+
+svg:hover {
+  fill: #ef840A;
 }
