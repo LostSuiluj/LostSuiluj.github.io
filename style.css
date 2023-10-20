@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Fira Sans", sans-serif;
@@ -19,6 +23,48 @@ body {
   color: white;
 }
 
+.navigation-flyout {
+  background-color: #C4CCB8;
+  width: 380px;
+ position: absolute;
+ right: 0px;
+ top:0px;
+ z-index: 1;
+ transform: translateY(-100%);
+ transition: all 0.5s;
+}
+
+.navigation-flyout-open {
+  transform: translate(0);
+}
+
+.navigation-flyout a {
+  text-decoration: none;
+}
+
+.header-close {
+  display: flex;
+  justify-content: end;
+}
+
+.closer {
+  height: 48px;
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+.navigationselement {
+  padding-right: 16px;
+  font-size: 24px;
+  display: flex;
+  color: black;
+  justify-content: flex-end;
+  margin-top: 16px;
+  font-weight: 900;
+  border-bottom: solid black 1px;
+  padding-bottom: 16px;
+}
+
 
 .container {
   margin-left: auto;
@@ -28,6 +74,7 @@ body {
   padding-bottom: 48px;
   padding-left: 32px;
   padding-right: 32px;
+  position: relative;
 }
 
 .navigation {
